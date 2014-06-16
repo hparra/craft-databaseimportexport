@@ -9,7 +9,7 @@ class FieldsHelper {
 	 * @param bool $isRaw whether to not post-process JSON
 	 * @return string
 	 */
-	public static processFieldAsJson($field, $isRaw=false, $groupName=null) {
+	public static function processFieldAsJson($field, $isRaw=false, $groupName=null) {
 
 		// get actual field data
 		$field = $field->getAttributes();
